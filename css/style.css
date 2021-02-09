@@ -1,0 +1,17 @@
+[class*="col-"]{
+  height: 100px;
+  background-color: red;
+  border: solid 1px #000;
+}
+
+
+.mybox{
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* header rules */
+
+header{
+  margin-bottom: 30px;
+}

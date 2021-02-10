@@ -1,5 +1,10 @@
 /* general rules */
 
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+
 [class*="col-"]{
   min-height: 100px;
   border: solid 1px #000;
@@ -23,6 +28,34 @@ header{
   margin-bottom: 30px;
 }
 
+div h1,div h3, div span, i{
+  color: white;
+}
+
+.line{
+  width: 130px;
+  height: 10px;
+  border-top: 3px solid white;
+  display: inline-block;
+}
+
+.blackline{
+  width: 130px;
+  height: 10px;
+  border-top: 3px solid black;
+  display: inline-block;
+}
+
+i{
+  width:100px;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.blackstar{
+  color: black;
+}
+
 section{
   margin-bottom: 30px;
 }
@@ -40,5 +73,6 @@ section{
 }
 
 div img{
-  object-fit: contain;
+  width: 100%;
+  height: auto;
 }
